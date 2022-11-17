@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!-- BULMA.IO -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <!-- CSS / JS -->
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen" />
+    <script type="text/javascript" src="/script.js"></script>
+
+    <!-- Importing the font-awesome library. -->
+    <script src="https://use.fontawesome.com/69cb9e5f5f.js"></script>
+
+    <!-- Fontes -->
+    <link href="http://fonts.cdnfonts.com/css/eurostile-extended" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/europanuova" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/eurostile" rel="stylesheet">
+
+    <!-- Icone -->
+    <link rel="icon" href="/imagens/img_portfolio/logo_colorido_sf.png">
+
+
+    <!-- The title of the page. -->
+    <title>Portfólio | Vinicius Carreira</title>
+</head>
+
+<body>
+    <!-- The header of the page. -->
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="/imagens/img_portfolio/logo_colorido_sf.png" alt="Portfolio - Vinicius Carreira" width="140"
+                    height="30">
+                <a class="navbar-item" href="/"><i class="fak fa-mf-logo has-text-primary fa-4x"></i></a>
+                <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="#navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div class="navbar-menu is-shadowless" id="navMenu">
+                <div class="navbar-start"></div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a class="button is-primary is-outlined is-rounded has-text-weight-normal" href="/index.html"><i
+                                class="fa fa-home" aria-hidden="true"></i>| Home</a>
+                    </div>
+                    <div class="navbar-item">
+                        <a class="button is-primary is-outlined is-rounded has-text-weight-normal"
+                            href="/contato.html"><i class="fa fa-comments" aria-hidden="true"></i>| Contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Titulo Projeto -->
+    <section class="hero is-white has-text-centered">
+        <div class="hero-body">
+            <div class="container">
+                <div class="column is-centered">
+                    <div class="column">
+                        <h1 class="title is spaced is-size-1-desktop is size-2-tablet is-size-3-mobile">
+                            Meus Projetos
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+
+    <section class="default">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/card_cadastro.png" alt="Imagem Cadastro">
+                    <div class="card-body">
+                        <h5 class="card-title">Cadastro de Funcionários</h5>
+                        <p class="card-text">Site para cadastro dos funcionários, com função de sálario, e cargo.</p>
+                        <br>
+                        <a href="/Cadastro/cadastro.html" class="btn btn-primary">Vamos Lá !</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/card_calculadora.png" alt="Imagem Calculadora">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculadora</h5>
+                        <p class="card-text">Site de uma calculadora, com as principais funções padrões de matemática.
+                        </p>
+                        <br>
+                        <a href="/Calculadora/calculadora.html" class="btn btn-primary">Vamos Lá !</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/card_financeiro.png" alt="Imagem Financeiro">
+                    <div class="card-body">
+                        <h5 class="card-title">Contabilidade</h5>
+                        <p class="card-text">Site para controlar o seu financiamento com despezas e lucros.</p>
+                        <br>
+                        <a href="/Contabilidade/financeiro.html" class="btn btn-primary">Vamos Lá !</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="default">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/card_formulario.png" alt="Imagem Formulário">
+                    <div class="card-body">
+                        <h5 class="card-title">Formulário</h5>
+                        <p class="card-text">Site para fabricação dos formulários, com perguntas pessoais básicas.</p>
+                        <br>
+                        <a href="/Formulario/form.html" class="btn btn-primary">Vamos Lá !</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/card_jgvelha.png" alt="Imagem Jogo da Velha">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo da Velha</h5>
+                        <p class="card-text">Site em que contém um jogo antigo e bom conhecido, podendo jogar em 2
+                            players.</p>
+                        <br>
+                        <a href="/Jogo da velha/jogodavelha.html" class="btn btn-primary">Vamos Lá !</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/card_netflix.png" alt="Imagem Netflix">
+                    <div class="card-body">
+                        <h5 class="card-title">Login Netflix</h5>
+                        <p class="card-text">Site clone, em que copia o próprio login da netflix, com todos os recursos.
+                        </p>
+                        <br>
+                        <a href="/LoginNetflix/netflix.html" class="btn btn-primary">Vamos Lá !</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="default">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/card_relogio.png" alt="Imagem Relógio Dinamico">
+                    <div class="card-body">
+                        <h5 class="card-title">Relógio Dinâmico</h5>
+                        <p class="card-text">Site para ver o horário do seu computador, horas, minutos e segundos.</p>
+                        <br>
+                        <a href="/Relogio Dinamico/relogio_dinamico.html" class="btn btn-primary">Vamos Lá !</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/card_cursos.png" alt="Imagem Site de Curso">
+                    <div class="card-body">
+                        <h5 class="card-title">Site de Curso</h5>
+                        <p class="card-text">Site para compartilhar ou vender cursos, com esquema de formulário e sobre nós.
+                        <br> <br>
+                        <a href="/Cursos/cursos.html" class="btn btn-primary">Vamos Lá !</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/imagens/img_projetos/manutencao.jpeg" alt="Imagem Manutenção">
+                    <div class="card-body">
+                        <h5 class="card-title">EM PRODUÇAO</h5>
+                        <p class="card-text">Sinto muito, um dev esta pensando. Essa aba está sendo criada. 
+                        </p>
+                        <br>
+                        <a href="/Manutencao/manu.html" class="btn btn-primary">->NAO CLIQUE<-</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
