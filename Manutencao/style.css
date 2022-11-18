@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+.main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.center {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 15%;
+}
