@@ -1,0 +1,32 @@
+nav {
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
+}
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+section h1 {
+    margin-bottom: 2rem;
+}
+
+.nav-item a {
+    color: black;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color: green;
+}
+
+.col {
+    padding-top: 1rem;
+}
+
+.card-body p {
+    font-weight: 600;
+}
