@@ -284,3 +284,9 @@ footer.section.is-small {
         margin-top: 10%;
     }
 }
+
+@media screen and (min-width: 769px) {
+    .column.is-three-fifths, .column.is-three-fifths-tablet {
+        width: 80% !important; 
+    }
+  }
