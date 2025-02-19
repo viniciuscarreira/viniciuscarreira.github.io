@@ -279,7 +279,7 @@ footer.section.is-small {
         margin-top: 140rem;
     }
     .section.is-primary {
-height: 90rem !important;
+        height: 90rem !important;
     }
     .desktop {
         display: none !important;
