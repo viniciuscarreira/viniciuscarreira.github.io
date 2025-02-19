@@ -114,7 +114,7 @@ nav {
 /* Section primary */
 .section.is-primary {
     background-color: #6e07f3;
-    height: 36rem;
+    height: 50rem;
 }
 
 .section.is-primary .title {
@@ -125,6 +125,7 @@ nav {
     color: white;
     font-family: "europa", sans-serif;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .button.is-primary {
@@ -189,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section.call-to-action .box {
     padding: 3.5rem 2rem;
-    margin-top: -9rem;
+    margin-top: 1rem;
     background-color: #141c3a;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #141c3a;
 }
@@ -277,6 +278,12 @@ footer.section.is-small {
     .spacing_contact {
         margin-top: 140rem;
     }
+    .section.is-primary {
+        height: 77rem !important;
+    }
+    .desktop {
+        display: none !important;
+    }
 }
 
 @media screen {
@@ -288,5 +295,8 @@ footer.section.is-small {
 @media screen and (min-width: 769px) {
     .column.is-three-fifths, .column.is-three-fifths-tablet {
         width: 80% !important; 
+    }
+    .mobile {
+        display: none !important;
     }
   }
