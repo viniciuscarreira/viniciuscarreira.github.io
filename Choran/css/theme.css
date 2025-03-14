@@ -1,0 +1,259 @@
+/*----------------------------------------------------------------------------------------
+                                    THEME DEFINITIONS
+-----------------------------------------------------------------------------------------*/
+
+/* -----  HOW CHANGE FONT-FAMILY    -----
+1 - https://fonts.google.com/
+2 - Select the font
+3 - Select the fonts Weight
+4 - On the "USE ON THE WEB" select @import
+5 - Apply on this CSS
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --common-font: 'Poppins', sans-serif;
+
+    --color-primary: #00c3a5 !important;
+    --color-primary-text: #fff;
+    --color-secondary: #a98d58;
+    --color-secondary-text: #212121;
+
+
+    --fc-dark: #212121;
+    --fc-light: #fff;
+
+    --tophead-bg: #003250;
+    --tophead-fc: #fff;
+    --tophead-fs: 12px;
+    --tophead-fw: 400;
+
+    --header-bg-color: #fff;
+    --header-icons-color: #003250;
+    --header-fc: #003250;
+    --header-fs: 16px; 
+    --header-fw: 500; 
+
+    --whatsapp-bg: #0E8F4A;
+    --whatsapp-color: #fff;
+
+    --btn-phone-bg: #003250;
+    --btn-phone-color: #fff;
+    
+    --fs-h1: 40px;
+    --fw-h1: 700;
+    --fc-h1: #232f84;
+    --mb-h1: 15px;
+
+    --fs-h2: 40px;
+    --fw-h2: 700;
+    --fc-h2: #232f84;
+    --mb-h2: 15px;
+
+    --fs-h3: 18px;
+    --fw-h3: 700;
+    --fc-h3: #212121;
+    --mb-h3: 15px;
+
+    --fs-h4: 16px;
+    --fw-h4: 600;
+    --fc-h4: #212121;
+    --mb-h4: 15px;
+
+    --fs-h5: 14px;
+    --fw-h5: 700;
+    --fc-h5: #232f84;
+    --mb-h5: 15px;
+
+    --fs-p: 16px;
+    --fc-p: #718096;
+    --mb-p: 10px;
+
+}
+
+body {
+    font-family: var(--common-font);
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: var(--fc-p);
+}
+
+p {
+    color:var(--fc-p);
+    font-size: var(--fs-p);
+}
+
+h1 {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-h1);
+    color: var(--fc-h1);
+    margin-bottom: var(--mb-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-h2);
+    color: var(--fc-h2);
+    margin-bottom: var(--mb-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-h3);
+    color: var(--fc-h3);
+    margin-bottom: var(--mb-h3);
+}
+
+h4 {
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-h4);
+    color: var(--fc-h4);
+    margin-bottom: var(--mb-h4);
+}
+
+h5 {
+    font-size: var(--fs-h5);
+    font-weight: var(--fw-h5);
+    color: var(--fc-h5);
+    margin-bottom: var(--mb-h5);
+}
+
+.black  {
+    color: var(--fc-dark);
+}
+
+.white {
+    color: var(--fc-light);
+}
+
+.btn-whatsapp {
+    background: #0E8F4A;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    font-weight: 700;
+} 
+
+.btn-whatsapp:hover {
+    color: #fff;
+}
+
+.btn-default {
+    background: var(--color-primary);
+    color: var(--color-primary-text);
+    border-radius: 3px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.btn-default:hover {
+    color: var(--color-primary-text);
+}
+
+
+/*----------------------------------------------------------------------------------------
+                                    PADDINGS
+-----------------------------------------------------------------------------------------*/
+
+.ptb-15 {
+    padding: 15px 0;
+}
+
+.ptb-25 {
+    padding: 25px 0;
+}
+
+.ptb-35 {
+    padding: 35px 0;
+}
+
+.ptb-40 {
+    padding: 40px 0;
+}
+
+.ptb-50 {
+    padding: 50px 0;
+}
+
+.ptb-75 {
+    padding: 75px 0;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-75 {
+    padding-top: 75px;
+}
+
+
+
+.mtb-15 {
+    margin: 15px 0;
+}
+
+.mtb-25 {
+    margin: 25px 0;
+}
+
+.mtb-35 {
+    margin: 35px 0;
+}
+
+.mtb-40 {
+    margin: 40px 0;
+}
+
+.mtb-50 {
+    margin: 50px 0;
+}
+
+
+.ptb-100 {
+    padding: 100px 0;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+

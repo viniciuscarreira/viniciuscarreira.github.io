@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Configurações básicas da página -->
+    <meta http-equiv="Content-Language" content="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!-- Define o charset como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Força o uso do modo mais recente do IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Configura a viewport para dispositivos móveis -->
+
+    <!-- Meta tags para SEO -->
+    <meta name="robots" content="noindex, nofollow"> <!-- Instrui os robôs de busca a não indexar a página -->
+    <title></title> <!-- Título da página (vazio) -->
+    <meta name="description" content=""> <!-- Descrição da página (vazia) -->
+
+    <!-- Configurações para dispositivos móveis -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <!-- Inclusão de CSS e Fontes -->
+    <script src="https://kit.fontawesome.com/afc8670453.js" crossorigin="anonymous"></script> <!-- Biblioteca de ícones FontAwesome -->
+    <link rel="stylesheet" href="https://landing.divia.com.br/assets/css/divia.css"> <!-- CSS principal da Divia -->
+
+    <!-- Scripts de terceiros -->
+    <script src="https://divia.s3-accelerate.dualstack.amazonaws.com/leads.js" type="text/javascript"></script> <!-- Script de leads da Divia -->
+
+    <!-- Inclusão de CSS personalizado -->
+    <link rel="stylesheet" href="/Choran/css/fonts.css">
+    <link rel="stylesheet" href="/Choran/css/bootstrap5.min.css"> <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="/Choran/css/fx.css">
+    <link rel="stylesheet" href="/Choran/css/theme.css">
+    <link rel="stylesheet" href="/Choran/css/slick.css"> <!-- Biblioteca Slick para carrosséis -->
+    <link rel="stylesheet" href="/Choran/css/lib/theme.css">
+    <link rel="stylesheet" href="/Choran/css/index.css">
+
+    <!-- Scripts do Google Maps -->
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/60/4/intl/pt_br/common.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/60/4/intl/pt_br/util.js"></script>
+</head>
+
+<!-- Início do corpo da página -->
+<body class="light-page" cz-shortcut-listen="true" style="padding-top: 0px;">
+    <div id="wrap">
+        <!-- Seção do menu de navegação -->
+        <section id="menu-4" class="light">
+            <nav id="nav" class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand"><img src="/Choran/img/logo.png" class=""></a> <!-- Logo da empresa -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span> <!-- Botão de toggle para mobile -->
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="main_nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link smooth" href="#cta-1" target="_self">Fature</a></li>
+                            <li class="nav-item"><a class="nav-link smooth" href="#features-13" target="_self">Sobre Nós</a></li>
+                            <li class="nav-item"><a class="nav-link smooth" href="#features-18" target="_self">Entrega</a></li>
+                        </ul>
+                        <div class="nav-buttons">
+                            <!-- Botões de contato -->
+                            <a href="https://wa.me/55" onclick="convertWhats()" target="_blank" class="btn whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                            <a href="tel:0" onclick="convertPhone()" target="_blank" class="btn btn-phone"><i class="fas fa-phone-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="bg-wrap">
+                <div class="bg"></div> <!-- Fundo da seção -->
+            </div>
+        </section>
+
+        <!-- Seção do banner principal -->
+        <section id="banner-1" class="light">
+            <div class="desktop">
+                <img src="/Choran/img/desk-banner.png" style="width: 100%" class=""> <!-- Banner para desktop -->
+            </div>
+            <div class="mobile">
+                <img src="/Choran/img/mob-banner.png" style="width: 100%" class=""> <!-- Banner para mobile -->
+            </div>
+            <div class="form_banner" id="contato">
+                <h4>Solicite Atendimento</h4>
+                <p>Soluções de marketing para os mais diversos negócios de diversos tamanhos</p>
+                <!-- Formulário de contato -->
+                <form method="POST" class="contact_form" id="banner-1-form">
+                    <input type="hidden" name="_token" value="CkeunERnd3TY37NGl97M3N60CZn5GESQCAcnVZDJ">
+                    <input type="hidden" name="type" value="1">
+                    <div class="form-group text-field-group">
+                        <input type="text" class="form-control" id="name" placeholder="Nome Completo" name="name">
+                    </div>
+                    <div class="form-group email-field-group">
+                        <input type="email" class="form-control" id="email" placeholder="Seu Melhor E-mail" name="email">
+                    </div>
+                    <div class="form-group text-field-group">
+                        <input type="text" class="form-control phone" id="phone" placeholder="Telefone/WhatsApp" name="phone" maxlength="15">
+                    </div>
+                    <div class="form-group text-field-group">
+                        <input type="text" class="form-control" id="Segmento" placeholder="Segmento" name="Segmento">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn_send">RECEBER INFORMAÇÕES</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Seção de chamada para ação (CTA) -->
+        <section id="cta-1" class="ptb-50 light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center text-title">Fature R$100 a R$500 mil em 6 meses com uma estrutura de marketing criada para sua necessidade. Sistema de vendas previsível e escalável para sua empresa nunca parar de vender!</h2>
+                        <p class="sub-cta text-center pt-25">Seja escalando o seu negócio ou criando um negócio digital do absoluto zero. Se o marketing da sua empresa não gera lucro real, você não tem um negócio. Tem um PROBLEMA. Nós RESOLVEMOS.</p>     
+                    </div>
+                    <div class="cta">
+                        <a href="https://wa.me/55" onclick="convertWhats()" class="btn-whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i> Agendar uma conversa</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-wrap">
+                <div class="bg"></div> <!-- Fundo da seção -->
+            </div>
+        </section>
+
+        <!-- Seção "Sobre Nós" -->
+        <section id="features-13" class="ptb-50 light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <img src="/Choran/img/sobre.png" class=""> <!-- Imagem sobre a empresa -->
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="content">
+                            <p class="tagline">// A CHORAN</p>
+                            <h2 class="title">Sobre Nós</h2>
+                            <p class="text-1">A Choran é uma agência de marketing digital com Foco em Performance.</p>
+                            <p class="text-2">Nossos serviços ajudam empresas a vender mais através da internet. Para isso oferecemos serviços de anúncios online, tráfego pago, estratégia para lançamentos, social media, redes sociais, webdesigner e designer, redação publicitária, copywriting e assessoria para e-commerces.</p>
+                            <ul class="about">
+                                <li>
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Foco em resultados</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Soluções personalizadas</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p>Metodologia de alta performance:</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- Seção "O que a Choran entrega" -->
+        <section id="features-18" class="ptb-50 light">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="content" style="z-index: 10;">
+                            <p class="tagline">// Reposição e Promoção</p>
+                            <h2 class="title" style="font-size: 35px;"><b>O que a Choran entrega</b></h2>
+                            <ul class="about">
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-usd" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h3> Escalamos empresas para múltiplos 5 dígitos/mês com previsibilidade.</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h3> Reduzimos o custo de aquisição em até X% enquanto aumentamos as conversões.</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h3> Multiplicamos a recorrência e o ticket médio sem aumentar seu investimento em tráfego.</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h3> Eliminamos gargalos invisíveis que bloqueiam seu crescimento.</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="text-1 pt-25" style="color: rgb(0, 0, 0); font-style: normal; font-weight: 600; overflow: visible;">Se você está investindo e não está vendo retorno, não é um problema do digital. É um problema de estratégia.</p>
+                            <div class="cta pt-25">
+                                <a href="https://wa.me/55" onclick="convertWhats()" class="btn-whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i> Agendar uma conversa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-wrap">
+                <div class="bg"></div> <!-- Fundo da seção -->
+            </div>
+        </section>
+
+        <!-- Seção do mapa -->
+        <section id="map-1" class="light">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="map-iframe embed-responsive embed-responsive-16by9 mb-30">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.299216670658!2d-46.855185399999996!3d-23.4857297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x498c76f692e1c7d%3A0xaab40acccaf2c1e4!2sChoran%20Midias!5e0!3m2!1spt-BR!2sbr!4v1741834782201!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-wrap">
+                <div class="bg"></div> <!-- Fundo da seção -->
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer id="footer_03--0" class="content-box footer-area footer-bg ptb-50 light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget pe-5">
+                            <div class="footer-logo">
+                                <a href="index.html">
+                                    <img src="/Choran/img/logo.png" class="w-100 footer-logo1" alt=""> <!-- Logo no rodapé -->
+                                </a>
+                            </div>
+                            <ul class="social-link">
+                                <li>
+                                    <a href="https://www.instagram.com/choranmidias/"  target="_blank">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i> <!-- Link para o Instagram -->
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/choran-midias/" target="_blank">
+                                        <i class="fab fa-linkedin" aria-hidden="true"></i> <!-- Link para o LinkedIn -->
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget pe-2">
+                            <h3>Contato</h3>
+                            <div>
+                                <a class="text-white" href="https://wa.me/55" onclick="convertWhats()" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i> | (51) 98491-5688</a> <!-- Link para o WhatsApp -->
+                            </div>
+                            <br>
+                            <div>
+                                <a class="text-white" href="tel:0" onclick="convertPhone()" target="blank"><i class="fas fa-phone-alt" aria-hidden="true"></i> | (51) 98491-5688</a> <!-- Link para ligação -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget">
+                            <h3>Horário de Atendimento</h3>
+                            <ul class="hours">
+                                <li>
+                                    <div class="content">
+                                        <h3>Segunda a Sexta</h3>
+                                        <span>09:00h às 18:00h</span> <!-- Horário de atendimento -->
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="endereco">Endereço</h3>
+                            <ul class="footer-contact">
+                                <li>
+                                    <i class="fa fa-map-marker" style="color: #fff;" aria-hidden="true"></i>
+                                    <div class="content">
+                                        <h4>Avenida Copacabana, 268 – Sala 1104 Empresarial 18 do Forte – Alphaville/SP</h4> <!-- Endereço da empresa -->
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Seção de direitos autorais -->
+        <section id="assignature-01" class="content-box light">
+            <div class="signature light">
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="copyright col-md-10 col-sm-12 text-left">
+                                <p>Copyright © <a> Vinicius Carreira</a> 2025. Todos direitos reservados</p> <!-- Direitos autorais -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-wrap">
+                <div class="bg"></div> <!-- Fundo da seção -->
+            </div>
+        </section>
+
+        <!-- Seção de contato para mobile -->
+        <section id="contact-1" class="light">
+            <div class="d-mobile">
+                <div class="d-phone content-box">
+                    <p><a href="tel:0" onclick="convertPhone()"><i class="fas fa-phone-alt" aria-hidden="true"></i> Clique para Ligar</a></p> <!-- Botão de ligação para mobile -->
+                </div>
+                <div class="d-whats content-box">
+                    <p><a href="https://wa.me/55" onclick="convertWhats()"><i class="fab fa-whatsapp" aria-hidden="true"></i> Fale por WhatsApp</a></p> <!-- Botão de WhatsApp para mobile -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de contato para desktop -->
+        <section id="contact-2" class="light">
+            <div class="whatsapp-desktop">
+                <a href="https://wa.me/55" onclick="convertWhats()">
+                    <p class="whatsapp-text">Fale por WhatsApp</p>
+                    <img src="/Choran/img/whatsapp.png" class=""> <!-- Botão de WhatsApp para desktop -->
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Rodapé adicional e scripts -->
+    <footer></footer>
+    <div class="modal-container"></div>
+
+    <!-- Scripts JavaScript -->
+    <script src="https://landing.divia.com.br/assets/js/jquery.min.js"></script> <!-- jQuery -->
+    <script src="https://landing.divia.com.br/assets/js/bootstrap5.min.js"></script> <!-- Bootstrap 5 -->
+    <script src="https://landing.divia.com.br/assets/js/divia.js"></script> <!-- Script personalizado da Divia -->
+
+    <!-- Scripts do Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLGXG4d1PGCcKv4m0QRqRkzEJYq2MFhwU"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script> <!-- Popper.js -->
+    <script src="js/slick.min.js"></script> <!-- Slick Carousel -->
+    <script src="js/index.js"></script> <!-- Script personalizado -->
+
+    <!-- Funções de conversão para Google Analytics -->
+    <script type="text/javascript">
+        function convertPhone() {
+            gtag('event', 'telefone');
+        }
+        function convertWhats() {
+            gtag('event', 'whatsapp');
+        }
+        function convertCustom(name, id) {
+            gtag('event', name);
+            if (id > 0) {
+                $.ajax({
+                    type: 'GET',
+                    url: '/conversao-evento-' + id
+                });
+            }
+        }
+    </script>
+</body>
+</html>
